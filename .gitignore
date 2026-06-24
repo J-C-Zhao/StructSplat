@@ -1,0 +1,9 @@
+*.sh
+.vscode
+log
+logger
+records
+ckpts/*
+data/*
+dataset_annotation_old
+playground.py
