@@ -46,7 +46,7 @@ We present **StructSplat**, a feed-forward and generalizable 3D Gaussian reconst
 
 ## Demo Video
 <!-- <video src="" controls width="100%"></video> -->
-<iframe src="https://drive.google.com/file/d/1LAnGCD9yETuskTguorX7J14QAfuefiXd/preview" width="640" height="480"></iframe>
+[![Click to play](asserts/demo.png)](https://drive.google.com/file/d/1LAnGCD9yETuskTguorX7J14QAfuefiXd/preview)
 
 ## Installation
 ### Clone Our Codebase
