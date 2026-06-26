@@ -22,7 +22,7 @@ Liqing Nie<sup>1</sup>
 ![teaser](asserts/teaser.svg)
 
 <p align="center">
-  <a href="" target='_blank'>
+  <a href=" " target='_blank'>
     <img src="http://img.shields.io/badge/ArXiv-TBD-B31B1B.svg">
   </a>
   <a href="https://structsplat.github.io/" target='_blank'>
@@ -46,6 +46,7 @@ We present **StructSplat**, a feed-forward and generalizable 3D Gaussian reconst
 
 ## Demo Video
 <!-- <video src="" controls width="100%"></video> -->
+<iframe src="https://drive.google.com/file/d/1LAnGCD9yETuskTguorX7J14QAfuefiXd/preview" width="640" height="480"></iframe>
 
 ## Installation
 ### Clone Our Codebase
