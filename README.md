@@ -25,15 +25,6 @@ Liqing Nie<sup>1</sup>
   <a href="https://arxiv.org/abs/2606.28321" target='_blank'><img src="http://img.shields.io/badge/ArXiv-2606.28321-B31B1B"></a>
   &emsp;
   <a href="https://structsplat.github.io/" target='_blank'><img src="https://img.shields.io/badge/Project Page-%F0%9F%93%9a-lightblue"></a>
-  <!-- <a href="https://youtu.be/4TxMQ9RnHMA">
-    <img src="https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white">
-  </a> -->
-  <!-- <a href="https://mp.weixin.qq.com/s/Y9uXxNMgliV9p-ne_bGpEw">
-    <img src="https://img.shields.io/badge/中文解读-机器之心-blue">
-  </a> -->
-  <!-- <a href="https://eccv.ecva.net/virtual/2024/poster/177">
-    <img src="https://img.shields.io/badge/ECCV2024-Poster-red">
-  </a> -->
 </p>
 
 ![teaser](asserts/teaser.svg)
@@ -45,7 +36,7 @@ We present **StructSplat**, a feed-forward and generalizable 3D Gaussian reconst
 
 ## Demo Video
 <!-- <video src="" controls width="100%"></video> -->
-[![Click to play](asserts/demo.png)](https://drive.google.com/file/d/1LAnGCD9yETuskTguorX7J14QAfuefiXd/preview)
+[![Demo Video](asserts/demo.jpeg)](https://fast.wistia.net/embed/iframe/t8h16g2nlw)
 
 ## Installation
 ### Clone Our Codebase
@@ -99,7 +90,7 @@ pip install -r requirements.txt
 
 
 ## Evaluation
-<!-- - **[Optional]** Download our pretrained checkpoint from [TBD](). Put it into folder **ckpts** as:
+- **[Optional]** Download our pretrained [checkpoint](https://huggingface.co/DazzlingSun/structsplat/resolve/main/pytorch_model.bin?download=true). Put it into folder **ckpts** as:
   ```
   ckpts
   ├── dinov3_convnext_large
@@ -108,8 +99,8 @@ pip install -r requirements.txt
   │   └── ...
   └── structsplat
       └── pytorch_model.bin
-  ``` -->
-- **[Coming Soon]** Pretrained weights will be released soon.
+  ```
+<!-- - **[Coming Soon]** Pretrained weights will be released soon. -->
 
 - **[Optional]** Convert a trained checkpoint from Deepspeed format into binary format: 
   ```
