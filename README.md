@@ -36,7 +36,7 @@ We present **StructSplat**, a feed-forward and generalizable 3D Gaussian reconst
 
 ## Demo Video
 <!-- <video src="" controls width="100%"></video> -->
-[![Demo Video](asserts/demo.jpeg)](https://fast.wistia.net/embed/iframe/t8h16g2nlw)
+[![Demo Video](asserts/demo.jpeg)](https://fast.wistia.net/embed/iframe/168y3or2hh)
 
 ## Installation
 ### Clone Our Codebase
@@ -90,7 +90,7 @@ pip install -r requirements.txt
 
 
 ## Evaluation
-- **[Optional]** Download our pretrained [checkpoint](https://huggingface.co/DazzlingSun/structsplat/resolve/main/pytorch_model.bin?download=true). Put it into folder **ckpts** as:
+- **[Optional]** Download our pretrained [checkpoint](https://huggingface.co/DazzlingSun/structsplat/resolve/main/pytorch_model.bin?download=true). Put it into folder `ckpts` as:
   ```
   ckpts
   ├── dinov3_convnext_large
