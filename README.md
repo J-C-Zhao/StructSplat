@@ -22,13 +22,9 @@ Liqing Nie<sup>1</sup>
 </div>
 
 <p align="center">
-  <a href="https://arxiv.org/abs/2606.28321" target='_blank'>
-    <img src="http://img.shields.io/badge/ArXiv-2606.28321-B31B1B">
-  </a>
+  <a href="https://arxiv.org/abs/2606.28321" target='_blank'><img src="http://img.shields.io/badge/ArXiv-2606.28321-B31B1B"></a>
   &emsp;
-  <a href="https://structsplat.github.io/" target='_blank'>
-    <img src="https://img.shields.io/badge/Project Page-%F0%9F%93%9a-lightblue">
-  </a>
+  <a href="https://structsplat.github.io/" target='_blank'><img src="https://img.shields.io/badge/Project Page-%F0%9F%93%9a-lightblue"></a>
   <!-- <a href="https://youtu.be/4TxMQ9RnHMA">
     <img src="https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white">
   </a> -->
