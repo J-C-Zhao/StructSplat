@@ -583,15 +583,15 @@ class GaussianWrapper(pl.LightningModule):
         cam_quat,
         scale_modifier=1.0
     ):
-        coordinate, _ = depth_to_world_coords_points(depth, extrinsic, intrinsic) # (B S N H W 3)  # pyright: ignore[reportAssignmentType]
+        coordinate, _ = depth_to_world_coords_points(depth, extrinsic, intrinsic) # (B S N H W 3)
         coordinate = rearrange(coordinate, "b s g h w c -> b (s g h w) c")
         opacity = rearrange(opacity, "b s g 1 h w -> b (s g h w)")
         sh = rearrange(sh, "b s g (c1 c2) h w  -> b (s g h w) c1 c2", c2=3)
         scale = rearrange(scale, "b s g c h w -> b (s g h w) c") * scale_modifier
         rot_quat = rearrange(rot_quat, "b s g c h w -> b s (g h w) c")
-        cam_quat = quaternion_conjugate(cam_quat)  # (B S 4), from c2w to w2c
+        cam_quat = quaternion_conjugate(cam_quat)  # (B S 4), from w2c to c2w
         cam_quat = rearrange(cam_quat, "b s c -> b s 1 c")
-        rot_quat = quaternion_multiply(cam_quat, rot_quat)
+        rot_quat = quaternion_multiply(cam_quat, rot_quat) # c2w
         rot_quat = rearrange(rot_quat, "b s n c -> b (s n) c")
 
         return coordinate, opacity, sh, scale, rot_quat
